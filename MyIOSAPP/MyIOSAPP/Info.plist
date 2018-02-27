@@ -41,5 +41,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>相册权限</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Siri权限</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>语音识别权限</string>
+	<key>Privacy - Location Always Usage Description	</key>
+	<string>始终允许位置</string>
+	<key>NSCameraUsageDescription</key>
+	<string>摄像头权限</string>
 </dict>
 </plist>
