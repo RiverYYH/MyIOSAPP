@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.dataArray = [NSMutableArray arrayWithObjects:@"MVC",@"MVP",@"MVVM" ,nil];
+    self.dataArray = [NSMutableArray arrayWithObjects:@"MVP",@"MVVM" ,nil];
     self.title = @"设计模式";
     self.designTableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -70,6 +70,12 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
+//    NSInteger row = indexPath.row;
+    ModeShowViewController * modelView = [ModeShowViewController new];
+    
+    modelView.typeIndex = indexPath.row;
+    [self.navigationController pushViewController:modelView animated:YES];
+    
 }
 
 

@@ -7,6 +7,8 @@ target 'MyIOSAPP' do
   pod 'GCJSONKit', '~> 1.5.0'
   # Pods for MyIOSAPP
   pod 'Masonry', '~> 1.1.0'
+  pod 'pop', '~> 1.0'
+  pod 'MSWeakTimer', '~> 1.1.0'
 
   target 'MyIOSAPPTests' do
     inherit! :search_paths

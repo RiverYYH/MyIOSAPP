@@ -7,11 +7,12 @@
 //
 
 #import "ModeShowViewController.h"
-#import "MVPView.h"
-#import "MVPModel.h"
-#import "MVPPresent.h"
+#import "BroadcastView.h"
+#import "BroadcastPresenter.h"
 
 @interface ModeShowViewController ()
+@property (nonatomic,strong) BroadcastView * broadcastView;
+@property (nonatomic,strong) BroadcastPresenter * broadcasPresenter;
 
 @end
 
@@ -44,11 +45,19 @@
     switch (self.typeIndex) {
         case 0:
         {
-            NSLog(@"显示mvp模式");
-            MVPView * mvpView = [MVPView new];
-            mvpView.frame = self.view.frame;
-            mvpView.backgroundColor = [UIColor whiteColor];
-            self.view = mvpView;
+//            NSLog(@"显示mvp模式");
+//            MVPView * mvpView = [MVPView new];
+//            mvpView.frame = self.view.frame;
+//            mvpView.backgroundColor = [UIColor whiteColor];
+//            self.view = mvpView;
+            self.broadcastView = [BroadcastView new];
+            self.broadcastView.frame = self.view.frame;
+            self.title = @"MVP 模式实现";
+            self.view = self.broadcastView;
+            self.broadcasPresenter = [BroadcastPresenter new];
+            [self.broadcastView buildBroadcastView:self withPresenter:_broadcasPresenter];
+            [self.broadcasPresenter initPresenterSub:self.broadcastView];
+            
         }
             break;
         case 1:{
