@@ -9,7 +9,7 @@ target 'MyIOSAPP' do
   pod 'Masonry', '~> 1.1.0'
   pod 'pop', '~> 1.0'
   pod 'MSWeakTimer', '~> 1.1.0'
-
+  pod 'ReactiveCocoa', '~> 2.5'
   target 'MyIOSAPPTests' do
     inherit! :search_paths
     # Pods for testing
