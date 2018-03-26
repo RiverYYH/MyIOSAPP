@@ -11,6 +11,8 @@
 #import "UpLoadImageViewController.h"
 #import "QueueViewController.h"
 #import "AlertUpdateMessageViewController.h"
+#import "NSString+Additions.h"
+#import "CutomTableViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
@@ -55,7 +57,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"我的APP";
-    self.dataArray = [NSMutableArray arrayWithObjects:@"设计模式",@"多张图片上传",@"多线程NSOperationQueue",@"App有版本更新时候打开出现的提示", nil];
+    self.dataArray = [NSMutableArray arrayWithObjects:@"设计模式",@"多张图片上传",@"多线程NSOperationQueue",@"App有版本更新时候打开出现的提示",@"自定义TableVieCell", nil];
     self.myTableView.tableFooterView = [[UIView alloc] init];
     
     
@@ -135,6 +137,11 @@
         case 3:{
             AlertUpdateMessageViewController * alerMessage = [AlertUpdateMessageViewController new];
             [self.navigationController pushViewController:alerMessage animated:YES];
+        }break;
+        case 4:{
+            CutomTableViewController * cutomTable = [CutomTableViewController new];
+            [self.navigationController pushViewController:cutomTable animated:YES];
+            
         }break;
         default:
             break;

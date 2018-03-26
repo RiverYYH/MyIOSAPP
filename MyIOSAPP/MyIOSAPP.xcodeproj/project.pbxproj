@@ -168,6 +168,17 @@
 		57C1FF2B1FF4A3BE00C10A37 /* MyIOSAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C1FF2A1FF4A3BE00C10A37 /* MyIOSAPPUITests.m */; };
 		57C1FF3C1FF4BC7800C10A37 /* ModelDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C1FF3B1FF4BC7800C10A37 /* ModelDesignViewController.m */; };
 		57D1427B20197F920026C96D /* ModeShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D1427A20197F920026C96D /* ModeShowViewController.m */; };
+		57E495BF2068842600E88FE4 /* CustmboLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E495BE2068842600E88FE4 /* CustmboLabel.m */; };
+		57FD6D582066107A005C2BEF /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FD6D572066107A005C2BEF /* UIScreen+Additions.m */; };
+		57FD6D5B2066116A005C2BEF /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FD6D5A2066116A005C2BEF /* UIView+Additions.m */; };
+		57FD6D5E2066120E005C2BEF /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FD6D5D2066120E005C2BEF /* NSString+Additions.m */; };
+		57FD6D6320661F09005C2BEF /* t_comments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FD6D5F20661F08005C2BEF /* t_comments@2x.png */; };
+		57FD6D6420661F09005C2BEF /* corner_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FD6D6020661F08005C2BEF /* corner_circle@2x.png */; };
+		57FD6D6520661F09005C2BEF /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57FD6D6120661F08005C2BEF /* data.plist */; };
+		57FD6D6620661F09005C2BEF /* t_repost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FD6D6220661F09005C2BEF /* t_repost@2x.png */; };
+		57FD6D6A2066479E005C2BEF /* CutomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FD6D692066479E005C2BEF /* CutomTableViewController.m */; };
+		57FD6D6D206648FA005C2BEF /* CutomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FD6D6C206648FA005C2BEF /* CutomTableView.m */; };
+		57FD6D7020664D89005C2BEF /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FD6D6F20664D89005C2BEF /* CustomTableViewCell.m */; };
 		F36B30B0F9E702AA91852F09 /* libPods-MyIOSAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78036638AC4505F69C32103D /* libPods-MyIOSAPP.a */; };
 		F52C7B2F2AA60AB1AAC2DB46 /* libPods-MyIOSAPPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0086B7DC7539C6AEA71F3D /* libPods-MyIOSAPPTests.a */; };
 /* End PBXBuildFile section */
@@ -449,6 +460,24 @@
 		57C1FF3B1FF4BC7800C10A37 /* ModelDesignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDesignViewController.m; sourceTree = "<group>"; };
 		57D1427920197F920026C96D /* ModeShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModeShowViewController.h; sourceTree = "<group>"; };
 		57D1427A20197F920026C96D /* ModeShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModeShowViewController.m; sourceTree = "<group>"; };
+		57E495BD2068842600E88FE4 /* CustmboLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustmboLabel.h; sourceTree = "<group>"; };
+		57E495BE2068842600E88FE4 /* CustmboLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustmboLabel.m; sourceTree = "<group>"; };
+		57FD6D562066107A005C2BEF /* UIScreen+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Additions.h"; sourceTree = "<group>"; };
+		57FD6D572066107A005C2BEF /* UIScreen+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Additions.m"; sourceTree = "<group>"; };
+		57FD6D592066116A005C2BEF /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		57FD6D5A2066116A005C2BEF /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		57FD6D5C2066120E005C2BEF /* NSString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		57FD6D5D2066120E005C2BEF /* NSString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		57FD6D5F20661F08005C2BEF /* t_comments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t_comments@2x.png"; sourceTree = "<group>"; };
+		57FD6D6020661F08005C2BEF /* corner_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corner_circle@2x.png"; sourceTree = "<group>"; };
+		57FD6D6120661F08005C2BEF /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		57FD6D6220661F09005C2BEF /* t_repost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t_repost@2x.png"; sourceTree = "<group>"; };
+		57FD6D682066479E005C2BEF /* CutomTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutomTableViewController.h; sourceTree = "<group>"; };
+		57FD6D692066479E005C2BEF /* CutomTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutomTableViewController.m; sourceTree = "<group>"; };
+		57FD6D6B206648FA005C2BEF /* CutomTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutomTableView.h; sourceTree = "<group>"; };
+		57FD6D6C206648FA005C2BEF /* CutomTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutomTableView.m; sourceTree = "<group>"; };
+		57FD6D6E20664D89005C2BEF /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		57FD6D6F20664D89005C2BEF /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		5B7F4AA5060E0B2C9E956D95 /* Pods-MyIOSAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyIOSAPPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyIOSAPPUITests/Pods-MyIOSAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		78036638AC4505F69C32103D /* libPods-MyIOSAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyIOSAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0086B7DC7539C6AEA71F3D /* libPods-MyIOSAPPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyIOSAPPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -807,6 +836,12 @@
 				575A25B8204F89680091CB82 /* FontColor */,
 				575A25B3204F89680091CB82 /* SmoothCurve */,
 				575A25C7204F89680091CB82 /* TYAttributedLabel */,
+				57FD6D562066107A005C2BEF /* UIScreen+Additions.h */,
+				57FD6D572066107A005C2BEF /* UIScreen+Additions.m */,
+				57FD6D592066116A005C2BEF /* UIView+Additions.h */,
+				57FD6D5A2066116A005C2BEF /* UIView+Additions.m */,
+				57FD6D5C2066120E005C2BEF /* NSString+Additions.h */,
+				57FD6D5D2066120E005C2BEF /* NSString+Additions.m */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -1007,6 +1042,7 @@
 		57C1FF051FF4A3BE00C10A37 /* MyIOSAPP */ = {
 			isa = PBXGroup;
 			children = (
+				57FD6D67206646C3005C2BEF /* CustomTable */,
 				575A25B2204F89310091CB82 /* common */,
 				5737B3B62044F814001AFC2C /* AlertUpdateMessage */,
 				5705ECE1203E9502003C2D6B /* NSOperationQueue */,
@@ -1022,6 +1058,10 @@
 				57C1FF0F1FF4A3BE00C10A37 /* Assets.xcassets */,
 				57C1FF111FF4A3BE00C10A37 /* LaunchScreen.storyboard */,
 				57C1FF141FF4A3BE00C10A37 /* Info.plist */,
+				57FD6D6120661F08005C2BEF /* data.plist */,
+				57FD6D6020661F08005C2BEF /* corner_circle@2x.png */,
+				57FD6D5F20661F08005C2BEF /* t_comments@2x.png */,
+				57FD6D6220661F09005C2BEF /* t_repost@2x.png */,
 				57C1FF151FF4A3BE00C10A37 /* main.m */,
 			);
 			path = MyIOSAPP;
@@ -1055,6 +1095,21 @@
 				575A2653204F94890091CB82 /* MVP */,
 			);
 			name = ModelDesign;
+			sourceTree = "<group>";
+		};
+		57FD6D67206646C3005C2BEF /* CustomTable */ = {
+			isa = PBXGroup;
+			children = (
+				57FD6D682066479E005C2BEF /* CutomTableViewController.h */,
+				57FD6D692066479E005C2BEF /* CutomTableViewController.m */,
+				57FD6D6B206648FA005C2BEF /* CutomTableView.h */,
+				57FD6D6C206648FA005C2BEF /* CutomTableView.m */,
+				57FD6D6E20664D89005C2BEF /* CustomTableViewCell.h */,
+				57FD6D6F20664D89005C2BEF /* CustomTableViewCell.m */,
+				57E495BD2068842600E88FE4 /* CustmboLabel.h */,
+				57E495BE2068842600E88FE4 /* CustmboLabel.m */,
+			);
+			path = CustomTable;
 			sourceTree = "<group>";
 		};
 		D298140F99E360DE37D17FE8 /* Frameworks */ = {
@@ -1183,10 +1238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				575A264E204F8BD60091CB82 /* qq.png in Resources */,
+				57FD6D6320661F09005C2BEF /* t_comments@2x.png in Resources */,
 				572BF6C02015CBB10010E3A7 /* close.png in Resources */,
 				575A2642204F8BB50091CB82 /* ic_blueheart@2x.png in Resources */,
 				575A2635204F8BB50091CB82 /* gift3.png in Resources */,
 				575A25F3204F8B9A0091CB82 /* avatarSmall2.png in Resources */,
+				57FD6D6520661F09005C2BEF /* data.plist in Resources */,
 				572BF6BD2015CBB10010E3A7 /* close@3x.png in Resources */,
 				575A2644204F8BB50091CB82 /* ic_gift@3x.png in Resources */,
 				575A262B204F8BB50091CB82 /* ic_shooting_star_barrage@2x.png in Resources */,
@@ -1201,6 +1258,7 @@
 				575A2638204F8BB50091CB82 /* gift4.png in Resources */,
 				575A2650204F8BD60091CB82 /* myAvatarSmall.png in Resources */,
 				575A263B204F8BB50091CB82 /* ic_share@3x.png in Resources */,
+				57FD6D6420661F09005C2BEF /* corner_circle@2x.png in Resources */,
 				575A2627204F8BB50091CB82 /* ic_shooting_star_barrage@3x.png in Resources */,
 				572BF6B92015CBB10010E3A7 /* plus@3x.png in Resources */,
 				572BF6BF2015CBB10010E3A7 /* ico_check_nomal@2x.png in Resources */,
@@ -1225,6 +1283,7 @@
 				575A2632204F8BB50091CB82 /* gift7.png in Resources */,
 				575A2636204F8BB50091CB82 /* gift1.png in Resources */,
 				575A2633204F8BB50091CB82 /* ic_chat_press@2x.png in Resources */,
+				57FD6D6620661F09005C2BEF /* t_repost@2x.png in Resources */,
 				575A2631204F8BB50091CB82 /* ic_purpleheart@3x.png in Resources */,
 				575A2643204F8BB50091CB82 /* ic_chat_press@3x.png in Resources */,
 				575A2639204F8BB50091CB82 /* ic_close_press@3x.png in Resources */,
@@ -1428,13 +1487,16 @@
 				572BF6AF2015CBB10010E3A7 /* SDImageCache.m in Sources */,
 				575A25E0204F89680091CB82 /* UIColor+Hex.m in Sources */,
 				572BF6AE2015CBB10010E3A7 /* SDWebImagePrefetcher.m in Sources */,
+				57E495BF2068842600E88FE4 /* CustmboLabel.m in Sources */,
 				575A25ED204F89680091CB82 /* TYTextContainer+Extended.m in Sources */,
 				5737B3DC20450295001AFC2C /* MKShowSubMultipleImportView.m in Sources */,
 				572BF6A92015CBB10010E3A7 /* UIImageView+HighlightedWebCache.m in Sources */,
 				5705ECE4203E9532003C2D6B /* QueueViewController.m in Sources */,
 				5737B3D720450295001AFC2C /* MKButton+Line.m in Sources */,
 				5737B3DF20450295001AFC2C /* MKSubMultipleButtonView.m in Sources */,
+				57FD6D5B2066116A005C2BEF /* UIView+Additions.m in Sources */,
 				575A25EA204F89680091CB82 /* TYImageCache.m in Sources */,
+				57FD6D582066107A005C2BEF /* UIScreen+Additions.m in Sources */,
 				572BF6B32015CBB10010E3A7 /* UIView+WebCacheOperation.m in Sources */,
 				572BF69B2015CBB10010E3A7 /* MShowAllGroup.m in Sources */,
 				57C1FF3C1FF4BC7800C10A37 /* ModelDesignViewController.m in Sources */,
@@ -1463,8 +1525,10 @@
 				572BF6A52015CBB10010E3A7 /* JJPhoto.m in Sources */,
 				5737B3DD20450295001AFC2C /* MKShowImportView.m in Sources */,
 				572BF6952015CBB10010E3A7 /* MHeaderImaCell.m in Sources */,
+				57FD6D7020664D89005C2BEF /* CustomTableViewCell.m in Sources */,
 				572BF69E2015CBB10010E3A7 /* MImaCell.m in Sources */,
 				575A25E6204F89680091CB82 /* TYDrawStorage.m in Sources */,
+				57FD6D6A2066479E005C2BEF /* CutomTableViewController.m in Sources */,
 				5737B3E720450427001AFC2C /* AlertMVPPresent.m in Sources */,
 				57C1FF0B1FF4A3BE00C10A37 /* ViewController.m in Sources */,
 				572BF6A12015CBB10010E3A7 /* BRPlaceholderTextView.m in Sources */,
@@ -1507,8 +1571,10 @@
 				575A25E3204F89680091CB82 /* UIView+Display.m in Sources */,
 				575A25E9204F89680091CB82 /* NSMutableAttributedString+TY.m in Sources */,
 				575A265A204F94B50091CB82 /* GiftChannelMessage.m in Sources */,
+				57FD6D6D206648FA005C2BEF /* CutomTableView.m in Sources */,
 				5737B3BD2044F847001AFC2C /* SELUpdateAlertConst.m in Sources */,
 				572BF6992015CBB10010E3A7 /* SDBaseProgressView.m in Sources */,
+				57FD6D5E2066120E005C2BEF /* NSString+Additions.m in Sources */,
 				5737B3EA20450441001AFC2C /* AlertMVPModel.m in Sources */,
 				5737B3E4204503AE001AFC2C /* AlertMVPView.m in Sources */,
 			);
