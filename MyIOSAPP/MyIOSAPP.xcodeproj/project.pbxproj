@@ -158,6 +158,9 @@
 		575A268A204F95440091CB82 /* BroadcastPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 575A2684204F95440091CB82 /* BroadcastPresenter.m */; };
 		575A268B204F95440091CB82 /* BroadcastPresenter+Gift.m in Sources */ = {isa = PBXBuildFile; fileRef = 575A2686204F95440091CB82 /* BroadcastPresenter+Gift.m */; };
 		575A268C204F95440091CB82 /* BroadcastPresenter+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 575A2688204F95440091CB82 /* BroadcastPresenter+Barrage.m */; };
+		577AAB1F206B35C500824232 /* JSCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577AAB1E206B35C500824232 /* JSCoreViewController.m */; };
+		577AAB22206B377200824232 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 577AAB21206B377200824232 /* Person.m */; };
+		577AAB26206B3AEB00824232 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 577AAB25206B3AEB00824232 /* index.html */; };
 		57C1FF081FF4A3BE00C10A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C1FF071FF4A3BE00C10A37 /* AppDelegate.m */; };
 		57C1FF0B1FF4A3BE00C10A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C1FF0A1FF4A3BE00C10A37 /* ViewController.m */; };
 		57C1FF0E1FF4A3BE00C10A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C1FF0C1FF4A3BE00C10A37 /* Main.storyboard */; };
@@ -440,6 +443,11 @@
 		575A2687204F95440091CB82 /* BroadcastPresenter+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BroadcastPresenter+Barrage.h"; sourceTree = "<group>"; };
 		575A2688204F95440091CB82 /* BroadcastPresenter+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BroadcastPresenter+Barrage.m"; sourceTree = "<group>"; };
 		575A2689204F95440091CB82 /* BroadcastPresenter+Gift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BroadcastPresenter+Gift.h"; sourceTree = "<group>"; };
+		577AAB1D206B35C500824232 /* JSCoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCoreViewController.h; sourceTree = "<group>"; };
+		577AAB1E206B35C500824232 /* JSCoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCoreViewController.m; sourceTree = "<group>"; };
+		577AAB20206B377200824232 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		577AAB21206B377200824232 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		577AAB25206B3AEB00824232 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		57C1FF031FF4A3BE00C10A37 /* MyIOSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIOSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C1FF061FF4A3BE00C10A37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57C1FF071FF4A3BE00C10A37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1017,6 +1025,18 @@
 			path = MVP/BroadcastPresenterCatgery;
 			sourceTree = "<group>";
 		};
+		577AAB1C206B347E00824232 /* JSCore_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				577AAB25206B3AEB00824232 /* index.html */,
+				577AAB1D206B35C500824232 /* JSCoreViewController.h */,
+				577AAB1E206B35C500824232 /* JSCoreViewController.m */,
+				577AAB20206B377200824232 /* Person.h */,
+				577AAB21206B377200824232 /* Person.m */,
+			);
+			path = JSCore_IOS;
+			sourceTree = "<group>";
+		};
 		57C1FEFA1FF4A3BE00C10A37 = {
 			isa = PBXGroup;
 			children = (
@@ -1042,6 +1062,7 @@
 		57C1FF051FF4A3BE00C10A37 /* MyIOSAPP */ = {
 			isa = PBXGroup;
 			children = (
+				577AAB1C206B347E00824232 /* JSCore_IOS */,
 				57FD6D67206646C3005C2BEF /* CustomTable */,
 				575A25B2204F89310091CB82 /* common */,
 				5737B3B62044F814001AFC2C /* AlertUpdateMessage */,
@@ -1242,6 +1263,7 @@
 				572BF6C02015CBB10010E3A7 /* close.png in Resources */,
 				575A2642204F8BB50091CB82 /* ic_blueheart@2x.png in Resources */,
 				575A2635204F8BB50091CB82 /* gift3.png in Resources */,
+				577AAB26206B3AEB00824232 /* index.html in Resources */,
 				575A25F3204F8B9A0091CB82 /* avatarSmall2.png in Resources */,
 				57FD6D6520661F09005C2BEF /* data.plist in Resources */,
 				572BF6BD2015CBB10010E3A7 /* close@3x.png in Resources */,
@@ -1517,6 +1539,7 @@
 				572BF6942015CBB10010E3A7 /* MFlowLayOut.m in Sources */,
 				572BF69C2015CBB10010E3A7 /* MImaLibTool.m in Sources */,
 				57026AA42016E45000B91368 /* HWImagePickerSheet.m in Sources */,
+				577AAB1F206B35C500824232 /* JSCoreViewController.m in Sources */,
 				575A25DD204F89680091CB82 /* UIBezierPath+Interpolation.m in Sources */,
 				575A2679204F94EA0091CB82 /* TopHeaderView.m in Sources */,
 				575A267C204F94EA0091CB82 /* gifView.m in Sources */,
@@ -1552,6 +1575,7 @@
 				57026AA02016E3BA00B91368 /* HWCollectionViewCell.m in Sources */,
 				575A2676204F94EA0091CB82 /* HeartView.m in Sources */,
 				575A267F204F94EA0091CB82 /* GitSelectionView.m in Sources */,
+				577AAB22206B377200824232 /* Person.m in Sources */,
 				572BF6A72015CBB10010E3A7 /* SDWebImageManager.m in Sources */,
 				572BF6A82015CBB10010E3A7 /* SDWebImageDecoder.m in Sources */,
 				575A25DE204F89680091CB82 /* UIFont+App.m in Sources */,

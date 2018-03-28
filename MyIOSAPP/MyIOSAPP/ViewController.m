@@ -13,6 +13,7 @@
 #import "AlertUpdateMessageViewController.h"
 #import "NSString+Additions.h"
 #import "CutomTableViewController.h"
+#import "JSCoreViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
@@ -57,7 +58,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"我的APP";
-    self.dataArray = [NSMutableArray arrayWithObjects:@"设计模式",@"多张图片上传",@"多线程NSOperationQueue",@"App有版本更新时候打开出现的提示",@"自定义TableVieCell", nil];
+    self.dataArray = [NSMutableArray arrayWithObjects:@"设计模式",@"多张图片上传",@"多线程NSOperationQueue",@"App有版本更新时候打开出现的提示",@"自定义TableVieCell", @"简单使用JsCore实现js与ios交互",nil];
     self.myTableView.tableFooterView = [[UIView alloc] init];
     
     
@@ -141,6 +142,11 @@
         case 4:{
             CutomTableViewController * cutomTable = [CutomTableViewController new];
             [self.navigationController pushViewController:cutomTable animated:YES];
+            
+        }break;
+        case 5:{
+            JSCoreViewController * jsCoreView = [JSCoreViewController new];
+            [self.navigationController pushViewController:jsCoreView animated:YES];
             
         }break;
         default:
